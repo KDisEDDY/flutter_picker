@@ -11,14 +11,9 @@ class MainPageState extends State<MainPageWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: AlbumListView(),
-    );
+    // todo
+    return const Text("todo");
   }
 
 }
 
-class AlbumListView extends ListView {
-
-
-}
