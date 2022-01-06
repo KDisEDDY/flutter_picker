@@ -22,7 +22,7 @@ class MainPageWidget extends StatefulWidget {
   const MainPageWidget({Key? key, required this.title}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => MainPageState();
+  State<StatefulWidget> createState() => MainPageState(this.title);
 
 }
 
